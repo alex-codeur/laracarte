@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Message;
 use Illuminate\Http\Request;
-use App\Http\Requests\ContactRequest;
 use App\Mail\ContactMessageCreated;
 use Illuminate\Support\Facades\Mail;
+use App\Http\Requests\ContactRequest;
 
 class ContactsController extends Controller
 {
@@ -16,7 +17,14 @@ class ContactsController extends Controller
 
     public function store(ContactRequest $request)
     {
-        $mailable = new ContactMessageCreated($request->name, $request->email, $request->msg);
+        $message = new Message();
+
+        $message->name = $request->name;
+        $message->email = $request->email;
+        $message->msg = $request->msg;
+        $message->save();
+
+        $mailable = new ContactMessageCreated($message);
         Mail::to($request->email)->send($mailable);
 
         session()->flash('notification.message', 'Nous vous répondrons dans les plus bref délais !');
