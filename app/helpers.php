@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 if (! function_exists('page_title')) {
 
     function page_title($title) {

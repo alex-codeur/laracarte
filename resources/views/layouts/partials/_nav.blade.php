@@ -15,8 +15,8 @@
         <li class="nav-item">
             <a class="nav-link" href="#">Artisans</a>
         </li>
-        <li class="nav-item {{ set_active_route('contact') }}">
-            <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+        <li class="nav-item {{ set_active_route('contact.create') }}">
+            <a class="nav-link" href="{{ route('contact.create') }}">Contact</a>
         </li>
       </ul>
 
