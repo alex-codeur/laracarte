@@ -1,0 +1,41 @@
+[33mcommit 26202c98ef1c6bd7664be7bb522598eb29ba850a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Alex Esaki <apachecordovax@gmail.com>
+Date:   Tue Feb 18 02:40:47 2020 +0100
+
+    installation du preset bootstrap et de laravel-ui
+
+[33mcommit 750023fe09c3ae3961a39c5955e85594be9e66c9[m
+Author: Alex Esaki <apachecordovax@gmail.com>
+Date:   Mon Feb 17 23:15:50 2020 +0100
+
+    sauvegarde des messages dans une base de données
+
+[33mcommit f18c1ff49e7a73b5a2d2b4dc1573abde66494c75[m
+Author: Alex Esaki <apachecordovax@gmail.com>
+Date:   Mon Feb 17 13:57:53 2020 +0100
+
+    envoi des mails et messages flash
+
+[33mcommit 10c7844730df4ef67e32a75e52d925d9390ca17a[m
+Author: Alex Esaki <apachecordovax@gmail.com>
+Date:   Mon Feb 17 09:50:26 2020 +0100
+
+    add contact page
+
+[33mcommit 1214595519dfb9b828cec501cbfe68d08669c393[m
+Author: Alex Esaki <apachecordovax@gmail.com>
+Date:   Sun Feb 16 10:40:43 2020 +0100
+
+    add set_active_route helper
+
+[33mcommit 0c4668f9659fb2ecc216b4933edfe6055841abf6[m
+Author: Alex Esaki <apachecordovax@gmail.com>
+Date:   Sun Feb 16 10:25:57 2020 +0100
+
+    add page_title helper
+
+[33mcommit 9099c6f0efdd48b5818b544b337c46bfeffaabb4[m
+Author: Alex Esaki <apachecordovax@gmail.com>
+Date:   Sun Feb 16 09:13:01 2020 +0100
+
+    initial commit
